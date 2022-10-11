@@ -57,10 +57,10 @@ public class AboutActivity extends CollectAbstractActivity implements
         initToolbar();
 
         int[][] items = {
-                {R.drawable.ic_outline_website_24, R.string.odk_website, R.string.odk_website_summary},
+                {R.drawable.ic_outline_website_24, R.string.evmak_website, R.string.evmak_website_summary},
                 {R.drawable.ic_outline_forum_24, R.string.odk_forum, R.string.odk_forum_summary},
-                {R.drawable.ic_outline_share_24, R.string.tell_your_friends, R.string.tell_your_friends_msg},
-                {R.drawable.ic_outline_rate_review_24, R.string.leave_a_review, R.string.leave_a_review_msg},
+                //{R.drawable.ic_outline_share_24, R.string.tell_your_friends, R.string.tell_your_friends_msg},
+                //{R.drawable.ic_outline_rate_review_24, R.string.leave_a_review, R.string.leave_a_review_msg},
                 {R.drawable.ic_outline_stars_24, R.string.all_open_source_licenses, R.string.all_open_source_licenses_msg}
         };
 
@@ -73,7 +73,7 @@ public class AboutActivity extends CollectAbstractActivity implements
         websiteTabHelper = new ExternalWebPageHelper();
         forumTabHelper = new ExternalWebPageHelper();
 
-        websiteUri = Uri.parse(getString(R.string.app_url));
+        websiteUri = Uri.parse(getString(R.string.evmak_url));
         forumUri = Uri.parse(getString(R.string.forum_url));
     }
 

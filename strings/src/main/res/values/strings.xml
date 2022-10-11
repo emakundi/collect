@@ -82,7 +82,7 @@
     <string name="get_accounts_runtime_permission_denied_title">Get accounts permission</string>
     <string name="get_accounts_runtime_permission_denied_desc">Without this permission Collect can\'t access accounts. Please try again when you are ready to grant it.</string>
     <string name="read_phone_state_runtime_permission_denied_title">Read phone state permission</string>
-    <string name="read_phone_state_runtime_permission_denied_desc">ODK Collect does not make calls but it needs to access certain properties about your device such as the phone number and device ID.</string>
+    <string name="read_phone_state_runtime_permission_denied_desc">evCollect does not make calls but it needs to access certain properties about your device such as the phone number and device ID.</string>
 
     <!--
     ##############################################
@@ -1008,12 +1008,14 @@
      ##############################################
      -->
     <string name="about_preferences">About</string>
-    <string name="tell_your_friends">Share ODK Collect</string>
-    <string name="tell_your_friends_msg">Are your colleagues still collecting data on paper? Share ODK Collect with them.</string>
+    <string name="tell_your_friends">Share evCollect</string>
+    <string name="tell_your_friends_msg">Are your colleagues still collecting data on paper? Share evCollect with them.</string>
     <string name="leave_a_review">Leave a Play Store review</string>
     <string name="leave_a_review_msg">Your (hopefully positive) review increases the visibility of the App in the Play Store.</string>
     <string name="odk_website">Visit the ODK website</string>
+    <string name="evmak_website">Visit EvMak Tanzania website</string>
     <string name="odk_website_summary">ODK is used to collect data for social good in challenging environments.</string>
+    <string name="evmak_website_summary">EvMak Tanzania is a digital business transformation company in Tanzania.</string>
     <string name="odk_forum">Join the ODK forum</string>
     <string name="odk_forum_summary">Join the forum to get support, request features, contribute code/translations! </string>
     <string name="all_open_source_licenses">Open source libraries/licenses</string>
@@ -1140,9 +1142,9 @@
     <string name="scan_configuration_qr_code">Scan configuration QR code</string>
 
     <!-- Error shown when a user tries to open a form that's in a different project -->
-    <string name="wrong_project_selected_for_form">To open this form, you must first open ODK Collect and switch to the project that contains it.</string>
+    <string name="wrong_project_selected_for_form">To open this form, you must first open evCollect and switch to the project that contains it.</string>
     <!-- Error shown when a user tries to open a form when there are no projects -->
-    <string name="app_not_configured">ODK Collect has not been configured. Try to open ODK Collect and configure it.\n\nIf you tapped on a shortcut, you might need to recreate it after configuring ODK Collect.</string>
+    <string name="app_not_configured">evCollect has not been configured. Try to open evCollect and configure it.\n\nIf you tapped on a shortcut, you might need to recreate it after configuring evCollect.</string>
 
     <!--
     ##############################################
